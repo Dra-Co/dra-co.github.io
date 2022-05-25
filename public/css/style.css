@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://db.onlinewebfonts.com/c/c6f5218272f98dd91e0742b9c2bdb0a2?family=Gang+of+Three');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+}
+.fs-7{
+    font-size: 14px;
+}
+.fs-0{
+    font-size: 64px;
+}
+.fs-big{
+    font-size: 48px;
+}
+.orange{
+    color: #FAA851 !important;
+}
+.bg-orange{
+    background-color: #FAA851;
+}
+.btn-orange{
+    background-color: #FAA851;
+    border-radius: 10px !important;
+    color: #fff;
+}
+.btn-orange:hover{
+    background-color: rgba(250,168,81, 0.9);
+    color: #fff;
+}
+.blue{
+    color: #7eb7c8 !important;
+}
+.bg-blue{
+    background-color: #7eb7c8;
+}
+.btn-blue{
+    background-color: #7eb7c8;
+    border-radius: 10px !important;
+    color: #fff;
+}
+.btn-blue:hover{
+    background-color: rgba(126,183,200, 0.9);
+    color: #fff;
+}
+.btn-pink{
+    background-color:  #C13584;
+    color: #fff;
+}
+.btn-pink:hover{
+    background-color:  #a32b6f;
+    color: #fff;
+}
+.btn-white{
+    background-color:  #fff;
+    color: #000;
+}
+.btn-white:hover{
+    background-color:  #e6e6e6;
+    color: #000;
+}
+.img{
+    position: absolute;
+    z-index: -100;
+}
+.img2{
+    position: absolute;
+    z-index: 100;
+    top: 250px;
+    left: 0px;
+}
+.navbar{
+    background-color: rgba(249,253,251, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid #FAA851 !important;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.gang{
+    font-family: "Gang of Three" !important;
+    letter-spacing: 3px;;
+}
+
+.rad-25{
+    border-radius: 25px;
+    border: none !important;
+}
+.top-rad-25{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.card-height{
+    height: 120px;
+}
+.get-started {
+    width: 12.5rem;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    transform: scale(1.2);
+  }
+  .get-started .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.625rem;
+  }
+  .get-started .circle .in {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+  }
+  .get-started .circle .in.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+  }
+  .get-started .circle .in.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+  }
+  .get-started .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 2rem;
+    color: #FAA851;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .get-started:hover .circle {
+    width: 100%;
+  }
+  .get-started:hover .circle .in.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+  }
+  .get-started:hover .button-text {
+    color: #fff;
+  }
+  .to-top{
+    position: fixed;
+    background-color: #a75701;
+    border-radius: 10px;
+    border: none;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  .to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 0.8;
+  }
